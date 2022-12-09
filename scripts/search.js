@@ -108,8 +108,8 @@ function createCard(x) {
                     <a href="http://127.0.0.1:5500/details.html?productId=${x.productId}" style='text-decoration: none; color: Black;'>
                         <h5 class="card-title">${x.productName}</h5>
                     </a>
-                    <p class="card-text">${x.productId}</p>
-                    <p class="card-text">$${Number(x.unitPrice).toFixed(2)}</p>
+                    <p class="card-text">Product #: ${x.productId}</p>
+                    <p class="card-text">Price: $${Number(x.unitPrice).toFixed(2)}</p>
                 </div>
             </div>
         </div>
